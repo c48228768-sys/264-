@@ -101,12 +101,12 @@ if question:
 # -----------------------------
 # 💬 이전 대화 보기
 # -----------------------------
-if st.checkbox("📜 이전 대화 보기"):
-    for msg in messages:
-        if msg["role"] == "user":
-            st.markdown(f"**👤 나:** {msg['content']}")
-        elif msg["role"] == "assistant":
-            st.markdown(f"**🤖 이육사 챗봇:** {msg['content']}")
+#if st.checkbox("📜 이전 대화 보기"):
+#    for msg in messages:
+#        if msg["role"] == "user":
+#            st.markdown(f"**👤 나:** {msg['content']}")
+#        elif msg["role"] == "assistant":
+#            st.markdown(f"**🤖 이육사 챗봇:** {msg['content']}")
 
 # -----------------------------
 # 📚 참고 자료 섹션
@@ -122,4 +122,5 @@ st.markdown("""
 
 st.markdown("---")
 st.caption("© 2025 국립경국대학교 디지털ICT공학과 | 안동지역 전통문화 이해 프로젝트")
+
 
